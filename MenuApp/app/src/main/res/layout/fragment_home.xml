@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="welcome to Goodreads"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:paddingLeft="15dp"
+        android:paddingTop="13dp"
+        android:fontFamily="@font/italiano"
+        android:textColor="@color/purple_700"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Discover your next favorite book with Goodreads. Explore a vast selection of titles, connect with other readers, and unlock your reading potential today."
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:fontFamily="@font/cake"
+        android:textColor="@color/purple_700"
+        android:lineSpacingExtra="8dp" />
+
+
+
+
+</FrameLayout>
